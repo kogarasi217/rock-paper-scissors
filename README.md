@@ -6,7 +6,7 @@
 ```go run ./cmd/api```
 
 # fixed
-in ```service/server.go```, `xtamp` is not declared.
+in ```service/server.go```, `xtamp` is not declared.  
 So import `ts "google.golang.org/protobuf/types/known/timestamppb"` and  
 
 ```go
