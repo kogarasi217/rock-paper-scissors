@@ -2,8 +2,11 @@
 
 > ref: https://dev.classmethod.jp/articles/golang-grpc-sample-project/
 
-## execute
+## Launch Server
 ```go run ./cmd/api```
+
+## Execute Client
+```go run ./cmd/cli```
 
 ## fixed
 in ```service/server.go```, `xtamp` is not declared.  

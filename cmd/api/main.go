@@ -30,5 +30,7 @@ func main() {
 	// 有効にすることでシリアライズせずとも後述する`grpc_cli`で動作確認ができるようになります。
 	reflection.Register(server)
 	// サーバーを起動
+	fmt.Printf("Launching Server...")
 	server.Serve(listenPort)
+
 }
